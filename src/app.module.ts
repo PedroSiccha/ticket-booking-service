@@ -12,6 +12,7 @@ import { TransactionsModule } from './modules/transactions/transactions.module';
 import { CqrsModule } from '@nestjs/cqrs';
 import { TransactionStartedHandler } from './modules/transactions/handlers/transaction-started.handler';
 import { TransactionCompletedHandler } from './modules/transactions/handlers/transaction-completed.handler';
+import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 
 @Module({
   imports: [
